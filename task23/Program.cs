@@ -12,5 +12,6 @@ Console.WriteLine();
 
 for (int i = 1; i <= n; i++)
 {
-    Console.WriteLine(i * i * i);
+    //Console.WriteLine(i * i * i);
+    Console.WriteLine(Math.Pow(i, 3));
 }

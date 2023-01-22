@@ -40,5 +40,5 @@ int zb = Convert.ToInt32(Console.ReadLine());
 
 
 double distance = Math.Sqrt(Math.Pow(xb - xa, 2) + Math.Pow(yb - ya, 2) + Math.Pow(zb - za, 2));// Вычисляем расстояние между точками A и B
-Console.WriteLine("Расстояние между точками A и B = " + distance);
-
+//Console.WriteLine("Расстояние между точками A и B = " + distance);
+ Console.WriteLine($"расстояние между точками А и В ={distance:f2}");
